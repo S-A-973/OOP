@@ -1,0 +1,6 @@
+.venv/
+.env
+*.txt
+*.mp3
+!requirements.txt
+
