@@ -14,5 +14,5 @@ circle2 = Circle(4)
 print(circle1.area(), circle1.area())
 print(circle1.perimeter(), round(circle2.perimeter(), 2))
 
-    
+circles = [circle1, circle2]
         
