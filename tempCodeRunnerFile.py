@@ -1,5 +1,2 @@
-acc1.deposite(30_000.00)
-# acc1.withdraw(12000.00)
-# acc1.deposite(14000)
-# acc1.print_details()
-
+acc1 = BankAccount(wendy, 456789021, 70_000.00)
+# acc2 = BankAccount(samuel,  78912445, 123_678_897)
