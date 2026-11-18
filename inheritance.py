@@ -21,6 +21,9 @@ class ContractualEmployee(Employee):
         super().__init__(name, department, salary)
         self.tenure = tenure
 
+    def show_details(self):
+        print(f"{self.name}\n{self.tenure}\n{self.department}")
+
 p1 = PermanentEmployees("Judah James", "Human Resources", 100_000, "AA Health Insurance", 4)
 c1 = ContractualEmployee("Simon Belles", "ICT", 90_000, 3)
 
